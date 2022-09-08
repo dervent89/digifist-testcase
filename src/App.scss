@@ -1,4 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@font-face {
+	font-family: 'ITC Avant Garde Pro';
+	src: url('fonts/ITCAvantGardePro/ITCAvantGardePro-Bold.eot');
+	src: url('fonts/ITCAvantGardePro/ITCAvantGardePro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ITCAvantGardePro/ITCAvantGardePro-Bold.woff2') format('woff2'),
+		url('fonts/ITCAvantGardePro/ITCAvantGardePro-Bold.woff') format('woff'),
+		url('fonts/ITCAvantGardePro/ITCAvantGardePro-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('fonts/Avenir/Avenir-Black.eot');
+	src: url('fonts/Avenir/Avenir-Black.eot?#iefix') format('embedded-opentype'), url('fonts/Avenir/Avenir-Black.woff2') format('woff2'),
+		url('fonts/Avenir/Avenir-Black.woff') format('woff'), url('fonts/Avenir/Avenir-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Avenir';
+	src: url('fonts/Avenir/Avenir-Medium.eot');
+	src: url('fonts/Avenir/Avenir-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/Avenir/Avenir-Medium.woff2') format('woff2'),
+		url('fonts/Avenir/Avenir-Medium.woff') format('woff'), url('fonts/Avenir/Avenir-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Avenir';
+	src: url('fonts/Avenir/Avenir-Roman.eot');
+	src: url('fonts/Avenir/Avenir-Roman.eot?#iefix') format('embedded-opentype'), url('fonts/Avenir/Avenir-Roman.woff2') format('woff2'),
+		url('fonts/Avenir/Avenir-Roman.woff') format('woff'), url('fonts/Avenir/Avenir-Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 
 $darkSkyBlue: #99c3cc;
 $tuscany: #cc9999;
@@ -6,7 +44,7 @@ $lightGrayishMagenta: #cb99cc;
 $laurelGreen: #a6cc99;
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	height: 100%;
 }
 
@@ -40,6 +78,7 @@ body {
 			margin: 0 auto;
 		}
 		&-title {
+			font-family: 'ITC Avant Garde Pro', sans-serif;
 			font-size: 31.25px;
 			line-height: 40.62px;
 			font-weight: 700;
@@ -50,6 +89,7 @@ body {
 			line-height: 25.6px;
 			font-weight: 400;
 			margin: 0 0 27px 0;
+			color: #666666;
 		}
 		&-button {
 			background: none;
